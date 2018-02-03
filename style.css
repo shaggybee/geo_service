@@ -1,0 +1,172 @@
+
+.block_general_properties{
+  width: 940px;
+  margin: 0 auto;
+}
+
+/* HEADER BEGIN*/
+
+header{
+  height: 50px;
+}
+
+.div_header_menu{
+  height: inherit;
+}
+
+.div_logo_header_img{
+  float: left;
+  width: 70px;
+  height: auto;
+  margin-left: 5px;
+  margin-top: 5px;
+}
+
+.div_logo_header_img img{
+  width: inherit;
+  height: auto;
+}
+
+.div_ui_header_menu{
+  float: left;
+  width: auto;
+  height: inherit;
+}
+
+.div_ui_header_menu ui{
+  height: inherit;
+  list-style-type: none;
+  display: table;
+}
+
+.div_ui_header_menu ui li{
+  padding-left: 20;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.div_ui_header_menu ui li a{
+  text-decoration: none;
+  font-family: Arial;
+  color:rgb(36, 36, 36);
+  font: 16pt;
+}
+
+.div_login_header_menu{
+  float: right;
+  display: table;
+  width: auto;
+  height: inherit;
+  margin-right: 10px;
+}
+
+.div_login_header_menu div{
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.div_login_header_menu a{
+  text-decoration: none;
+  font-family: Arial;
+  color:rgb(36, 36, 36);
+  font: 16pt;
+}
+
+.div_login_header_menu p{
+  display: inline;
+  font-family: Arial;
+  font: 16pt;
+}
+
+/* HEADER END*/
+
+/*BODY BEGIN*/
+
+.div_container_content{
+  height: auto;
+}
+
+.div_main_content{
+  background-color: #3498DB;
+  height: auto;
+  overflow: auto;
+}
+
+.div_text_about{
+  float: left;
+  width: 55%;
+}
+
+.div_text_about h1{
+  font-family: Arial;
+  color: white;
+  margin-left: 40px;
+  margin-top: 20px;
+}
+
+.div_text_about p{
+  font-family: Arial;
+  font-size: 15pt;
+  color: white;
+  margin-left: 40px;
+}
+
+.div_image_about{
+  float: right;
+  width: 45%;
+  height: inherit;
+  text-align: center;
+}
+
+.div_image_about img{
+  margin-top: 5%;
+  margin-bottom: 5%;
+  width: 340px;
+  height: auto;
+}
+
+.div_heading_possibility{
+  background-color: white;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.div_heading_possibility h3{
+  color: #C0392B;
+  font-family: Arial;
+  text-align: center;
+}
+
+.div_possibility_content{
+  height: 200px;
+}
+
+.div_possibility_variant{
+  width: 25%;
+  float: left;
+  height: inherit;
+}
+
+.div_possibility_variant div{
+  width: 75%;
+  height: inherit;
+  margin: 0 auto;
+  border-style: solid;
+  border-color: #3498DB;
+}
+
+.div_possibility_variant div img{
+  display: block;
+  width: 50%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.div_possibility_variant div p{
+  margin: 0;
+  font-family: Arial;
+  text-align: center;
+}
+
+/*BODY END*/
